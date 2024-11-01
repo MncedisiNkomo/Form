@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get" enctype="multipart/form-data">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="User name">
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" min="1" max="65" step="5">
+        </div>
+        <div>
+            <label for="Date">BirthDate</label>
+            <input type="date" name="date" id="date">
+        </div>
+        <div>
+            favorite food
+            <div>
+                <label for="Watermelon">Watermelon</label>
+                <input type="checkbox" name="Watermelon" id="Watermelon">
+            </div>
+            <div>
+                <label for="Apple">Apple</label>
+                <input type="checkbox" name="Apple" id="Apple">
+            </div>
+        </div>
+        <div>
+            Gender
+            <div>
+                <label for="male">Male</label>
+                <input type="radio" name="Gender" id="male">
+            </div>
+            <div>
+                <label for="female">Female</label>
+                <input type="radio" name="Gender" id="female">
+            </div>
+        </div>
+        <div>
+            <label for="bio">Bio</label>
+            <textarea id="bio" name="bio">8</textarea>
+        </div>
+        <div>
+            <label for="file">File</label>
+            <input type="file" name="file" id="file">
+        </div>
+        <div>
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            </label>
+            <br>
+            <button id="Submitbutton">Submit</button>
+            <button type="reset">Reset</button>
+
+        </div>
+
+</body>
+<!-- 
+1. get reference to element that we want to click
+2. add event listener to element we have the reference for
+3. Submit button now prints data instead of each form field  -->
+<script src="index.js"></script>
+
+</html>
